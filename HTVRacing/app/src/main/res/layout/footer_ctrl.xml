@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/llFooter"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+    <View
+        android:id="@+id/vFooterSeparator"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/footer_item_separator_background_color"/>
+    <TextView
+        android:id="@+id/tvFooterCopyright"
+        style="@style/DefaultNormalTextView"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="@dimen/footer_vertical_padding"/>
+</LinearLayout>
